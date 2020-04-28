@@ -4,8 +4,7 @@ This is a simple but useful Fish function. It scans your [Zotero][1] library
 for PDF files that have been renamed via [Zotfile][2], using either [`fd`][3]
 (fast) or Unix `find` (ubiquitous). It then presents these results in [`fzf`][4],
 letting you fuzzy-search through the results, and choose as many hits as you want
-with <kbd>Tab</kbd>. Once you're done, press <kbd>Enter</kbd>, and the files you
-chose open up in your system default PDF viewer. 
+with <kbd>Tab</kbd>. Press <kbd>Enter</kbd> to open those files in your PDF viewer. 
 
 If you use Zotero to organize your bibliography, and sometimes want to quickly 
 open a paper without having to open the Zotero GUI program, this is for you.
