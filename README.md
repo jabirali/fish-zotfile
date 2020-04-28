@@ -4,11 +4,13 @@ This is a simple but useful Fish function. It scans your [Zotero][1] library
 for PDF files that have been renamed via [Zotfile][2], using either [`fd`][3]
 (fast) or Unix `find` (ubiquitous). It then presents these results in [`fzf`][4],
 letting you fuzzy-search through the results, and choose as many hits as you want
-with <kbd>Tab</kbd>. Press <kbd>Enter</kbd> to open those files in your PDF viewer. 
+with <kbd>Tab</kbd>. Press <kbd>Enter</kbd> to open those files in your PDF viewer.
 
 If you use Zotero to organize your bibliography, and sometimes want to quickly 
 open a paper without having to open the Zotero GUI program, this is for you.
-To install it using [Fisher][5]:
+While I made this for use with with my Zotero library, it should work equally
+fine with Mendeley or any other system that places sensibly named PDF files
+in a searchable directory. To install this with [Fisher][5]:
 
     fisher add jabirali/fish-zotfile
 
